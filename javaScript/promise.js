@@ -77,13 +77,13 @@ myPromise
 
 const promiseArray = [
   new Promise((resolve, reject) => {
-    setTimeout(() => resolve("i am promise 1"), 2000);
+    setTimeout(() => resolve("i am promise all 1"), 2000);
   }),
   new Promise((resolve, reject) => {
-    setTimeout(() => resolve("i am promise 2"), 1000);
+    setTimeout(() => resolve("i am promise all 2"), 1000);
   }),
   new Promise((resolve, reject) => {
-    setTimeout(() => resolve("i am promise 3"), 3000);
+    setTimeout(() => resolve("i am promise all 3"), 3000);
   }),
 ];
 
